@@ -11,10 +11,10 @@ function load(){;
                 '<div class=item>'+
                 '<img src='+items[i].image+'width=256 height=256>'+
                 '<ul>'+
-                '<li>Name:'+
+                '<li><div class="list-text-title">Name:</div>'+
                 items[i].name+
                 '</li>'+
-                '<li>Description:'+
+                '<li><div class="list-text-title">Description:</div>'+
                 items[i].description+
                 '</li>'+
                 '</ul>'+
