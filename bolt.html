@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bolt</title>
+    <style>
+        body{
+            background-color: rgb(206, 206, 206);
+        }
+        #button{
+            background-color:dimgray;
+            border:none;
+            color:white;
+            text-align:center;
+            padding:15px 15px;
+            font-size: 16px;
+        }
+        #button:hover{
+            background-color: rgb(48, 47, 47);
+            cursor:pointer
+        }
+        #items-container{
+            display:grid;
+            grid-template-columns: auto auto;
+        }
+        .item{
+            margin:20px 40px 20px 0px;
+        }
+        .item img{
+            margin-left:40px;
+            border-radius: 10%;
+        }
+        .item ul{
+            list-style:none;
+        }
+        .item li{
+            font-size:20px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+</head>
+<body>
+    <button id="button">Menu nyitasa</button>
+
+    <div id="items-container"></div>
+    <script src="script.js"></script>
+</body>
+</html>
